@@ -1,0 +1,1297 @@
+.android.com/reference/android/support/v4/net/ConnectivityManagerCompat.html#getNetworkInfoFromBroadcast(android.net.ConnectivityManager, android.content.Intent)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Net.ConnectivityManagerCompat.IsActiveNetworkMetered(Android.Net.ConnectivityManager)">
+            <param name="cm">To be added.</param>
+            <summary>Returns if the currently active data network is metered.</summary>
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Returns if the currently active data network is metered. A network is
+ classified as metered when the user is sensitive to heavy data usage on
+ that connection. You should check this before doing large data transfers,
+ and warn the user or delay the operation until another network is
+ available.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/ConnectivityManagerCompat.html#isActiveNetworkMetered(android.net.ConnectivityManager)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="P:Android.Support.V4.Net.ConnectivityManagerCompat.ThresholdClass">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.IntPtr" /> which contains the <c>java.lang.Class</c> JNI value corresponding to this type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control which <c>jclass</c> is provided to methods like <see cref="M:Android.Runtime.JNIEnv.CallNonVirtualVoidMethod" />.</para>
+            </remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.ConnectivityManagerCompat.ThresholdType">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.Type" /> which provides the declaring type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control virtual vs. non virtual method dispatch against the underlying JNI object. When this property is equal to the declaring type, then virtual method invocation against the JNI object is performed; otherwise, we assume that the method was overridden by a derived type, and perform non-virtual methdo invocation.</para>
+            </remarks>
+        </member>
+        <member name="T:Android.Support.V4.Net.ConnectivityManagerCompat+BaseConnectivityManagerCompatImpl">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.Net.ConnectivityManagerCompat+BaseConnectivityManagerCompatImpl(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">To be added.</param>
+            <param name="transfer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.ConnectivityManagerCompat+BaseConnectivityManagerCompatImpl.IsActiveNetworkMetered(Android.Net.ConnectivityManager)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.ConnectivityManagerCompat+BaseConnectivityManagerCompatImpl.ThresholdClass">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.ConnectivityManagerCompat+BaseConnectivityManagerCompatImpl.ThresholdType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Net.ConnectivityManagerCompat+GingerbreadConnectivityManagerCompatImpl">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.Net.ConnectivityManagerCompat+GingerbreadConnectivityManagerCompatImpl(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">To be added.</param>
+            <param name="transfer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.ConnectivityManagerCompat+GingerbreadConnectivityManagerCompatImpl.IsActiveNetworkMetered(Android.Net.ConnectivityManager)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.ConnectivityManagerCompat+GingerbreadConnectivityManagerCompatImpl.ThresholdClass">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.ConnectivityManagerCompat+GingerbreadConnectivityManagerCompatImpl.ThresholdType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Net.ConnectivityManagerCompat+HoneycombMR2ConnectivityManagerCompatImpl">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.Net.ConnectivityManagerCompat+HoneycombMR2ConnectivityManagerCompatImpl(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">To be added.</param>
+            <param name="transfer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.ConnectivityManagerCompat+HoneycombMR2ConnectivityManagerCompatImpl.IsActiveNetworkMetered(Android.Net.ConnectivityManager)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.ConnectivityManagerCompat+HoneycombMR2ConnectivityManagerCompatImpl.ThresholdClass">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.ConnectivityManagerCompat+HoneycombMR2ConnectivityManagerCompatImpl.ThresholdType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Net.ConnectivityManagerCompat+IConnectivityManagerCompatImpl">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.ConnectivityManagerCompat+IConnectivityManagerCompatImpl.IsActiveNetworkMetered(Android.Net.ConnectivityManager)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Net.ConnectivityManagerCompat+JellyBeanConnectivityManagerCompatImpl">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.Net.ConnectivityManagerCompat+JellyBeanConnectivityManagerCompatImpl(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">To be added.</param>
+            <param name="transfer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.ConnectivityManagerCompat+JellyBeanConnectivityManagerCompatImpl.IsActiveNetworkMetered(Android.Net.ConnectivityManager)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.ConnectivityManagerCompat+JellyBeanConnectivityManagerCompatImpl.ThresholdClass">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.ConnectivityManagerCompat+JellyBeanConnectivityManagerCompatImpl.ThresholdType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Net.TrafficStatsCompat">
+            <summary>Helper for accessing features in TrafficStats introduced after API level 14
+ in a backwards compatible fashion.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Helper for accessing features in TrafficStats introduced after API level 14
+ in a backwards compatible fashion.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompat.html" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="C:Android.Support.V4.Net.TrafficStatsCompat">
+            <summary />
+            <remarks>
+                <para tool="javadoc-to-mdoc" />
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompat.html#TrafficStatsCompat()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="C:Android.Support.V4.Net.TrafficStatsCompat(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">A <see cref="T:System.IntPtr" />containing a Java Native Interface (JNI) object reference.</param>
+            <param name="transfer">A <see cref="T:Android.Runtime.JniHandleOwnership" />indicating how to handle <paramref name="javaReference" /></param>
+            <summary>A constructor used when creating managed representations of JNI objects; called by the runtime.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This constructor is invoked by the runtime infrastructure (<see cref="M:Java.Lang.Object.GetObject``1(System.IntPtr,Android.Runtime.JniHandleOwnership)" />) to create a new managed representation for a Java Native Interface object.</para>
+                <para tool="javadoc-to-mdoc">The constructor will initializes the <see cref="P:Android.Runtime.IJavaObject.Handle" /> property of the new instance using <paramref name="javaReference" /> and <paramref name="transfer" />.</para>
+            </remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat.ClearThreadStatsTag">
+            <summary>Clear active tag used when accounting <c><see cref="T:Java.Net.Socket" /></c> traffic originating
+ from the current thread.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Clear active tag used when accounting <c><see cref="T:Java.Net.Socket" /></c> traffic originating
+ from the current thread.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompat.html#clearThreadStatsTag()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat.IncrementOperationCount(System.Int32)">
+            <param name="operationCount">Number of operations to increment count by.
+</param>
+            <summary>Increment count of network operations performed under the accounting tag
+ currently active on the calling thread.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Increment count of network operations performed under the accounting tag
+ currently active on the calling thread. This can be used to derive
+ bytes-per-operation.</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompat.html#incrementOperationCount(int)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat.IncrementOperationCount(System.Int32,System.Int32)">
+            <param name="tag">Accounting tag used in <c><see cref="P:Android.Support.V4.Net.TrafficStatsCompat.ThreadStatsTag" /></c>.</param>
+            <param name="operationCount">Number of operations to increment count by.
+</param>
+            <summary>Increment count of network operations performed under the given
+ accounting tag.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Increment count of network operations performed under the given
+ accounting tag. This can be used to derive bytes-per-operation.</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompat.html#incrementOperationCount(int, int)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat.TagSocket(Java.Net.Socket)">
+            <param name="socket">To be added.</param>
+            <summary>Tag the given <c><see cref="T:Java.Net.Socket" /></c> with any statistics parameters active for
+ the current thread.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Tag the given <c><see cref="T:Java.Net.Socket" /></c> with any statistics parameters active for
+ the current thread. Subsequent calls always replace any existing
+ parameters. When finished, call <c><see cref="M:Android.Support.V4.Net.TrafficStatsCompat.UntagSocket(Java.Net.Socket)" /></c> to remove
+ statistics parameters.</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompat.html#tagSocket(java.net.Socket)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+            <exception cref="T:Java.Net.SocketException" />
+            <altmember cref="P:Android.Support.V4.Net.TrafficStatsCompat.ThreadStatsTag" />
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat.ThreadStatsTag">
+            <summary>Get the active tag used when accounting <c><see cref="T:Java.Net.Socket" /></c> traffic originating
+ from the current thread.</summary>
+            <value>To be added.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc: Get method documentation">
+                    <format type="text/html">
+                        <b>Get method documentation</b>
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompat.html#getThreadStatsTag()" target="_blank">[Android Documentation]</a>
+                        <br />
+                    </format>Get the active tag used when accounting <c><see cref="T:Java.Net.Socket" /></c> traffic originating
+ from the current thread. Only one active tag per thread is supported.
+ <c><see cref="M:Android.Support.V4.Net.TrafficStatsCompat.TagSocket(Java.Net.Socket)" /></c>.
+</para>
+                <para tool="javadoc-to-mdoc: Set method documentation">
+                    <format type="text/html">
+                        <b>Set method documentation</b>
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompat.html#setThreadStatsTag(int)" target="_blank">[Android Documentation]</a>
+                        <br />
+                    </format>Set active tag to use when accounting <c><see cref="T:Java.Net.Socket" /></c> traffic originating
+ from the current thread. Only one active tag per thread is supported.
+ 
+ Changes only take effect during subsequent calls to
+ <c><see cref="M:Android.Support.V4.Net.TrafficStatsCompat.TagSocket(Java.Net.Socket)" /></c>.
+ 
+ Tags between <c>0xFFFFFF00</c> and <c>0xFFFFFFFF</c> are reserved and
+ used internally by system services like DownloadManager when performing
+ traffic on behalf of an application.
+</para>
+                <para tool="javadoc-to-mdoc" />
+                <para tool="javadoc-to-mdoc" />
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat.ThresholdClass">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.IntPtr" /> which contains the <c>java.lang.Class</c> JNI value corresponding to this type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control which <c>jclass</c> is provided to methods like <see cref="M:Android.Runtime.JNIEnv.CallNonVirtualVoidMethod" />.</para>
+            </remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat.ThresholdType">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.Type" /> which provides the declaring type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control virtual vs. non virtual method dispatch against the underlying JNI object. When this property is equal to the declaring type, then virtual method invocation against the JNI object is performed; otherwise, we assume that the method was overridden by a derived type, and perform non-virtual methdo invocation.</para>
+            </remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat.UntagSocket(Java.Net.Socket)">
+            <param name="socket">To be added.</param>
+            <summary>Remove any statistics parameters from the given <c><see cref="T:Java.Net.Socket" /></c>.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Remove any statistics parameters from the given <c><see cref="T:Java.Net.Socket" /></c>.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompat.html#untagSocket(java.net.Socket)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+            <exception cref="T:Java.Net.SocketException" />
+        </member>
+        <member name="T:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">To be added.</param>
+            <param name="transfer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl.ClearThreadStatsTag">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl.IncrementOperationCount(System.Int32)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl.IncrementOperationCount(System.Int32,System.Int32)">
+            <param name="p0">To be added.</param>
+            <param name="p1">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl.TagSocket(Java.Net.Socket)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl.ThreadStatsTag">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl.ThresholdClass">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl.ThresholdType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl.UntagSocket(Java.Net.Socket)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl+SocketTags">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl+SocketTags(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">To be added.</param>
+            <param name="transfer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl+SocketTags.StatsTag">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl+SocketTags.ThresholdClass">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat+BaseTrafficStatsCompatImpl+SocketTags.ThresholdType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Net.TrafficStatsCompat+IcsTrafficStatsCompatImpl">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.Net.TrafficStatsCompat+IcsTrafficStatsCompatImpl(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">To be added.</param>
+            <param name="transfer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+IcsTrafficStatsCompatImpl.ClearThreadStatsTag">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+IcsTrafficStatsCompatImpl.IncrementOperationCount(System.Int32)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+IcsTrafficStatsCompatImpl.IncrementOperationCount(System.Int32,System.Int32)">
+            <param name="p0">To be added.</param>
+            <param name="p1">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+IcsTrafficStatsCompatImpl.TagSocket(Java.Net.Socket)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat+IcsTrafficStatsCompatImpl.ThreadStatsTag">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat+IcsTrafficStatsCompatImpl.ThresholdClass">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat+IcsTrafficStatsCompatImpl.ThresholdType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+IcsTrafficStatsCompatImpl.UntagSocket(Java.Net.Socket)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Net.TrafficStatsCompat+ITrafficStatsCompatImpl">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+ITrafficStatsCompatImpl.ClearThreadStatsTag">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+ITrafficStatsCompatImpl.IncrementOperationCount(System.Int32)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+ITrafficStatsCompatImpl.IncrementOperationCount(System.Int32,System.Int32)">
+            <param name="p0">To be added.</param>
+            <param name="p1">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+ITrafficStatsCompatImpl.TagSocket(Java.Net.Socket)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompat+ITrafficStatsCompatImpl.ThreadStatsTag">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompat+ITrafficStatsCompatImpl.UntagSocket(Java.Net.Socket)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Net.TrafficStatsCompatIcs">
+            <summary>Implementation of TrafficStatsCompat that can call ICS APIs.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Implementation of TrafficStatsCompat that can call ICS APIs.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompatIcs.html" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="C:Android.Support.V4.Net.TrafficStatsCompatIcs">
+            <summary />
+            <remarks>
+                <para tool="javadoc-to-mdoc" />
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompatIcs.html#TrafficStatsCompatIcs()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="C:Android.Support.V4.Net.TrafficStatsCompatIcs(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">A <see cref="T:System.IntPtr" />containing a Java Native Interface (JNI) object reference.</param>
+            <param name="transfer">A <see cref="T:Android.Runtime.JniHandleOwnership" />indicating how to handle <paramref name="javaReference" /></param>
+            <summary>A constructor used when creating managed representations of JNI objects; called by the runtime.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This constructor is invoked by the runtime infrastructure (<see cref="M:Java.Lang.Object.GetObject``1(System.IntPtr,Android.Runtime.JniHandleOwnership)" />) to create a new managed representation for a Java Native Interface object.</para>
+                <para tool="javadoc-to-mdoc">The constructor will initializes the <see cref="P:Android.Runtime.IJavaObject.Handle" /> property of the new instance using <paramref name="javaReference" /> and <paramref name="transfer" />.</para>
+            </remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompatIcs.ClearThreadStatsTag">
+            <summary />
+            <remarks>
+                <para tool="javadoc-to-mdoc" />
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompatIcs.html#clearThreadStatsTag()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompatIcs.IncrementOperationCount(System.Int32)">
+            <param name="operationCount">To be added.</param>
+            <summary />
+            <remarks>
+                <para tool="javadoc-to-mdoc" />
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompatIcs.html#incrementOperationCount(int)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompatIcs.IncrementOperationCount(System.Int32,System.Int32)">
+            <param name="tag">To be added.</param>
+            <param name="operationCount">To be added.</param>
+            <summary />
+            <remarks>
+                <para tool="javadoc-to-mdoc" />
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompatIcs.html#incrementOperationCount(int, int)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompatIcs.TagSocket(Java.Net.Socket)">
+            <param name="socket">To be added.</param>
+            <summary />
+            <remarks>
+                <para tool="javadoc-to-mdoc" />
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompatIcs.html#tagSocket(java.net.Socket)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+            <exception cref="T:Java.Net.SocketException" />
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompatIcs.ThreadStatsTag">
+            <summary />
+            <value>To be added.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc: Get method documentation">
+                    <format type="text/html">
+                        <b>Get method documentation</b>
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompatIcs.html#getThreadStatsTag()" target="_blank">[Android Documentation]</a>
+                        <br />
+                    </format>
+                </para>
+                <para tool="javadoc-to-mdoc: Set method documentation">
+                    <format type="text/html">
+                        <b>Set method documentation</b>
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompatIcs.html#setThreadStatsTag(int)" target="_blank">[Android Documentation]</a>
+                        <br />
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompatIcs.ThresholdClass">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.IntPtr" /> which contains the <c>java.lang.Class</c> JNI value corresponding to this type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control which <c>jclass</c> is provided to methods like <see cref="M:Android.Runtime.JNIEnv.CallNonVirtualVoidMethod" />.</para>
+            </remarks>
+        </member>
+        <member name="P:Android.Support.V4.Net.TrafficStatsCompatIcs.ThresholdType">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.Type" /> which provides the declaring type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control virtual vs. non virtual method dispatch against the underlying JNI object. When this property is equal to the declaring type, then virtual method invocation against the JNI object is performed; otherwise, we assume that the method was overridden by a derived type, and perform non-virtual methdo invocation.</para>
+            </remarks>
+        </member>
+        <member name="M:Android.Support.V4.Net.TrafficStatsCompatIcs.UntagSocket(Java.Net.Socket)">
+            <param name="socket">To be added.</param>
+            <summary />
+            <remarks>
+                <para tool="javadoc-to-mdoc" />
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/net/TrafficStatsCompatIcs.html#untagSocket(java.net.Socket)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+            <exception cref="T:Java.Net.SocketException" />
+        </member>
+        <member name="T:Android.Support.V4.OS.IParcelableCompatCreatorCallbacks">
+            <summary>Callbacks a <c><see cref="T:Android.OS.Parcelable" /></c> creator should implement.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Callbacks a <c><see cref="T:Android.OS.Parcelable" /></c> creator should implement.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/os/ParcelableCompatCreatorCallbacks.html" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.OS.IParcelableCompatCreatorCallbacks.CreateFromParcel(Android.OS.Parcel,Java.Lang.ClassLoader)">
+            <param name="in">The Parcel to read the object's data from.</param>
+            <param name="loader">The ClassLoader that this object is being created in.</param>
+            <summary>Create a new instance of the Parcelable class, instantiating it
+ from the given Parcel whose data had previously been written by
+ <c><see cref="!:Android.OS.Parcelable.writeToParcel(android.os.Parcel, int)" /></c> and
+ using the given ClassLoader.</summary>
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Create a new instance of the Parcelable class, instantiating it
+ from the given Parcel whose data had previously been written by
+ <c><see cref="!:Android.OS.Parcelable.writeToParcel(android.os.Parcel, int)" /></c> and
+ using the given ClassLoader.</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/os/ParcelableCompatCreatorCallbacks.html#createFromParcel(android.os.Parcel, java.lang.ClassLoader)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.OS.IParcelableCompatCreatorCallbacks.NewArray(System.Int32)">
+            <param name="size">Size of the array.</param>
+            <summary>Create a new array of the Parcelable class.</summary>
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Create a new array of the Parcelable class.</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/os/ParcelableCompatCreatorCallbacks.html#newArray(int)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="T:Android.Support.V4.OS.ParcelableCompat">
+            <summary>Helper for accessing features in <c><see cref="T:Android.OS.Parcelable" /></c>
+ introduced after API level 4 in a backwards compatible fashion.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Helper for accessing features in <c><see cref="T:Android.OS.Parcelable" /></c>
+ introduced after API level 4 in a backwards compatible fashion.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/os/ParcelableCompat.html" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="C:Android.Support.V4.OS.ParcelableCompat">
+            <summary />
+            <remarks>
+                <para tool="javadoc-to-mdoc" />
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/os/ParcelableCompat.html#ParcelableCompat()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="C:Android.Support.V4.OS.ParcelableCompat(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">A <see cref="T:System.IntPtr" />containing a Java Native Interface (JNI) object reference.</param>
+            <param name="transfer">A <see cref="T:Android.Runtime.JniHandleOwnership" />indicating how to handle <paramref name="javaReference" /></param>
+            <summary>A constructor used when creating managed representations of JNI objects; called by the runtime.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This constructor is invoked by the runtime infrastructure (<see cref="M:Java.Lang.Object.GetObject``1(System.IntPtr,Android.Runtime.JniHandleOwnership)" />) to create a new managed representation for a Java Native Interface object.</para>
+                <para tool="javadoc-to-mdoc">The constructor will initializes the <see cref="P:Android.Runtime.IJavaObject.Handle" /> property of the new instance using <paramref name="javaReference" /> and <paramref name="transfer" />.</para>
+            </remarks>
+        </member>
+        <member name="M:Android.Support.V4.OS.ParcelableCompat.NewCreator(Android.Support.V4.OS.IParcelableCompatCreatorCallbacks)">
+            <param name="callbacks">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.OS.ParcelableCompat.ThresholdClass">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.IntPtr" /> which contains the <c>java.lang.Class</c> JNI value corresponding to this type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control which <c>jclass</c> is provided to methods like <see cref="M:Android.Runtime.JNIEnv.CallNonVirtualVoidMethod" />.</para>
+            </remarks>
+        </member>
+        <member name="P:Android.Support.V4.OS.ParcelableCompat.ThresholdType">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.Type" /> which provides the declaring type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control virtual vs. non virtual method dispatch against the underlying JNI object. When this property is equal to the declaring type, then virtual method invocation against the JNI object is performed; otherwise, we assume that the method was overridden by a derived type, and perform non-virtual methdo invocation.</para>
+            </remarks>
+        </member>
+        <member name="T:Android.Support.V4.OS.ParcelableCompat+CompatCreator">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.OS.ParcelableCompat+CompatCreator(Android.Support.V4.OS.IParcelableCompatCreatorCallbacks)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.OS.ParcelableCompat+CompatCreator(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">To be added.</param>
+            <param name="transfer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.OS.ParcelableCompat+CompatCreator.CreateFromParcel(Android.OS.Parcel)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.OS.ParcelableCompat+CompatCreator.NewArray(System.Int32)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.OS.ParcelableCompat+CompatCreator.ThresholdClass">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.OS.ParcelableCompat+CompatCreator.ThresholdType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Util.AtomicFile">
+            <summary>Static library support version of the framework's <c><see cref="T:Android.Util.AtomicFile" /></c>,
+ a helper class for performing atomic operations on a file by creating a
+ backup file until a write has successfully completed.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Static library support version of the framework's <c><see cref="T:Android.Util.AtomicFile" /></c>,
+ a helper class for performing atomic operations on a file by creating a
+ backup file until a write has successfully completed.
+ </para>
+                <para tool="javadoc-to-mdoc">
+ Atomic file guarantees file integrity by ensuring that a file has
+ been completely written and sync'd to disk before removing its backup.
+ As long as the backup file exists, the original file is considered
+ to be invalid (left over from a previous attempt to write the file).
+ </para>
+                <para tool="javadoc-to-mdoc">
+ Atomic file does not confer any file locking semantics.
+ Do not use this class when the file may be accessed or modified concurrently
+ by multiple threads or processes.  The caller is responsible for ensuring
+ appropriate mutual exclusion invariants whenever it accesses the file.
+ </para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/AtomicFile.html" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="C:Android.Support.V4.Util.AtomicFile(Java.IO.File)">
+            <param name="baseName">To be added.</param>
+            <summary>Create a new AtomicFile for a file located at the given File path.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Create a new AtomicFile for a file located at the given File path.
+ The secondary backup file will be the same file path with ".bak" appended.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/AtomicFile.html#AtomicFile(java.io.File)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="C:Android.Support.V4.Util.AtomicFile(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">A <see cref="T:System.IntPtr" />containing a Java Native Interface (JNI) object reference.</param>
+            <param name="transfer">A <see cref="T:Android.Runtime.JniHandleOwnership" />indicating how to handle <paramref name="javaReference" /></param>
+            <summary>A constructor used when creating managed representations of JNI objects; called by the runtime.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This constructor is invoked by the runtime infrastructure (<see cref="M:Java.Lang.Object.GetObject``1(System.IntPtr,Android.Runtime.JniHandleOwnership)" />) to create a new managed representation for a Java Native Interface object.</para>
+                <para tool="javadoc-to-mdoc">The constructor will initializes the <see cref="P:Android.Runtime.IJavaObject.Handle" /> property of the new instance using <paramref name="javaReference" /> and <paramref name="transfer" />.</para>
+            </remarks>
+        </member>
+        <member name="P:Android.Support.V4.Util.AtomicFile.BaseFile">
+            <summary>Return the path to the base file.</summary>
+            <value>To be added.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Return the path to the base file.  You should not generally use this,
+ as the data at that path may not be valid.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/AtomicFile.html#getBaseFile()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.AtomicFile.Delete">
+            <summary>Delete the atomic file.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Delete the atomic file.  This deletes both the base and backup files.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/AtomicFile.html#delete()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.AtomicFile.FailWrite(System.IO.Stream)">
+            <param name="str">To be added.</param>
+            <summary>Call when you have failed for some reason at writing to the stream
+ returned by <c><see cref="M:Android.Support.V4.Util.AtomicFile.StartWrite" /></c>.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Call when you have failed for some reason at writing to the stream
+ returned by <c><see cref="M:Android.Support.V4.Util.AtomicFile.StartWrite" /></c>.  This will close the current
+ write stream, and roll back to the previous state of the file.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/AtomicFile.html#failWrite(java.io.FileOutputStream)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.AtomicFile.FinishWrite(System.IO.Stream)">
+            <param name="str">To be added.</param>
+            <summary>Call when you have successfully finished writing to the stream
+ returned by <c><see cref="M:Android.Support.V4.Util.AtomicFile.StartWrite" /></c>.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Call when you have successfully finished writing to the stream
+ returned by <c><see cref="M:Android.Support.V4.Util.AtomicFile.StartWrite" /></c>.  This will close, sync, and
+ commit the new data.  The next attempt to read the atomic file
+ will return the new file stream.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/AtomicFile.html#finishWrite(java.io.FileOutputStream)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.AtomicFile.OpenRead">
+            <summary>Open the atomic file for reading.</summary>
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Open the atomic file for reading.  If there previously was an
+ incomplete write, this will roll back to the last good data before
+ opening for read.  You should call close() on the FileInputStream when
+ you are done reading from it.
+
+ </para>
+                <para tool="javadoc-to-mdoc">Note that if another thread is currently performing
+ a write, this will incorrectly consider it to be in the state of a bad
+ write and roll back, causing the new data currently being written to
+ be dropped.  You must do your own threading protection for access to
+ AtomicFile.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/AtomicFile.html#openRead()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+            <exception cref="T:Java.IO.FileNotFoundException" />
+        </member>
+        <member name="M:Android.Support.V4.Util.AtomicFile.ReadFully">
+            <summary>A convenience for <c><see cref="M:Android.Support.V4.Util.AtomicFile.OpenRead" /></c> that also reads all of the
+ file contents into a byte array which is returned.</summary>
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc">A convenience for <c><see cref="M:Android.Support.V4.Util.AtomicFile.OpenRead" /></c> that also reads all of the
+ file contents into a byte array which is returned.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/AtomicFile.html#readFully()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+            <exception cref="T:Java.IO.IOException" />
+        </member>
+        <member name="M:Android.Support.V4.Util.AtomicFile.StartWrite">
+            <summary>Start a new write operation on the file.</summary>
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Start a new write operation on the file.  This returns a FileOutputStream
+ to which you can write the new file data.  The existing file is replaced
+ with the new data.  You <i>must not</i> directly close the given
+ FileOutputStream; instead call either <c><see cref="M:Android.Support.V4.Util.AtomicFile.FinishWrite(System.IO.Stream)" /></c>
+ or <c><see cref="M:Android.Support.V4.Util.AtomicFile.FailWrite(System.IO.Stream)" /></c>.
+
+ </para>
+                <para tool="javadoc-to-mdoc">Note that if another thread is currently performing
+ a write, this will simply replace whatever that thread is writing
+ with the new file being written by this thread, and when the other
+ thread finishes the write the new write operation will no longer be
+ safe (or will be lost).  You must do your own threading protection for
+ access to AtomicFile.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/AtomicFile.html#startWrite()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+            <exception cref="T:Java.IO.IOException" />
+        </member>
+        <member name="P:Android.Support.V4.Util.AtomicFile.ThresholdClass">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.IntPtr" /> which contains the <c>java.lang.Class</c> JNI value corresponding to this type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control which <c>jclass</c> is provided to methods like <see cref="M:Android.Runtime.JNIEnv.CallNonVirtualVoidMethod" />.</para>
+            </remarks>
+        </member>
+        <member name="P:Android.Support.V4.Util.AtomicFile.ThresholdType">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.Type" /> which provides the declaring type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control virtual vs. non virtual method dispatch against the underlying JNI object. When this property is equal to the declaring type, then virtual method invocation against the JNI object is performed; otherwise, we assume that the method was overridden by a derived type, and perform non-virtual methdo invocation.</para>
+            </remarks>
+        </member>
+        <member name="T:Android.Support.V4.Util.DebugUtils">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.Util.DebugUtils">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.Util.DebugUtils(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">To be added.</param>
+            <param name="transfer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Util.DebugUtils.BuildShortClassTag(Java.Lang.Object,Java.Lang.StringBuilder)">
+            <param name="p0">To be added.</param>
+            <param name="p1">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Util.DebugUtils.ThresholdClass">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Util.DebugUtils.ThresholdType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Util.LogWriter">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.Util.LogWriter(System.String)">
+            <param name="p0">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="C:Android.Support.V4.Util.LogWriter(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">To be added.</param>
+            <param name="transfer">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Util.LogWriter.Close">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Util.LogWriter.Flush">
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Util.LogWriter.ThresholdClass">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="P:Android.Support.V4.Util.LogWriter.ThresholdType">
+            <summary>To be added.</summary>
+            <value>To be added.</value>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Util.LogWriter.Write(System.Char[],System.Int32,System.Int32)">
+            <param name="p0">To be added.</param>
+            <param name="p1">To be added.</param>
+            <param name="p2">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="T:Android.Support.V4.Util.LongSparseArray">
+            <summary>SparseArray mapping longs to Objects.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">SparseArray mapping longs to Objects.  Unlike a normal array of Objects,
+ there can be gaps in the indices.  It is intended to be more efficient
+ than using a HashMap to map Longs to Objects.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="C:Android.Support.V4.Util.LongSparseArray">
+            <summary>Creates a new LongSparseArray containing no mappings.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Creates a new LongSparseArray containing no mappings.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#LongSparseArray()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="C:Android.Support.V4.Util.LongSparseArray(System.Int32)">
+            <param name="initialCapacity">To be added.</param>
+            <summary>Creates a new LongSparseArray containing no mappings that will not
+ require any additional memory allocation to store the specified
+ number of mappings.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Creates a new LongSparseArray containing no mappings that will not
+ require any additional memory allocation to store the specified
+ number of mappings.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#LongSparseArray(int)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="C:Android.Support.V4.Util.LongSparseArray(System.IntPtr,Android.Runtime.JniHandleOwnership)">
+            <param name="javaReference">A <see cref="T:System.IntPtr" />containing a Java Native Interface (JNI) object reference.</param>
+            <param name="transfer">A <see cref="T:Android.Runtime.JniHandleOwnership" />indicating how to handle <paramref name="javaReference" /></param>
+            <summary>A constructor used when creating managed representations of JNI objects; called by the runtime.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This constructor is invoked by the runtime infrastructure (<see cref="M:Java.Lang.Object.GetObject``1(System.IntPtr,Android.Runtime.JniHandleOwnership)" />) to create a new managed representation for a Java Native Interface object.</para>
+                <para tool="javadoc-to-mdoc">The constructor will initializes the <see cref="P:Android.Runtime.IJavaObject.Handle" /> property of the new instance using <paramref name="javaReference" /> and <paramref name="transfer" />.</para>
+            </remarks>
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.Append(System.Int64,Java.Lang.Object)">
+            <param name="key">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.Clear">
+            <summary>Removes all key-value mappings from this LongSparseArray.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Removes all key-value mappings from this LongSparseArray.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#clear()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.Clone">
+            <summary>Creates and returns a copy of this <c>Object</c>.</summary>
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Creates and returns a copy of this <c>Object</c>. The default
+ implementation returns a so-called "shallow" copy: It creates a new
+ instance of the same class and then copies the field values (including
+ object references) from this instance to the new instance. A "deep" copy,
+ in contrast, would also recursively clone nested objects. A subclass that
+ needs to implement this kind of cloning should call <c>super.clone()</c>
+ to create the new instance and then create deep copies of the nested,
+ mutable objects.</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#clone()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.Delete(System.Int64)">
+            <param name="key">To be added.</param>
+            <summary>Removes the mapping from the specified key, if there was any.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Removes the mapping from the specified key, if there was any.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#delete(long)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.Get(System.Int64)">
+            <param name="key">To be added.</param>
+            <summary>Gets the Object mapped from the specified key, or <c>null</c>
+ if no such mapping has been made.</summary>
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Gets the Object mapped from the specified key, or <c>null</c>
+ if no such mapping has been made.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#get(long)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.Get(System.Int64,Java.Lang.Object)">
+            <param name="key">To be added.</param>
+            <param name="valueIfKeyNotFound">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.IdealByteArraySize(System.Int32)">
+            <param name="need">To be added.</param>
+            <summary />
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc" />
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#idealByteArraySize(int)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.IdealLongArraySize(System.Int32)">
+            <param name="need">To be added.</param>
+            <summary />
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc" />
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#idealLongArraySize(int)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.IndexOfKey(System.Int64)">
+            <param name="key">To be added.</param>
+            <summary>Returns the index for which <c><see cref="M:Android.Support.V4.Util.LongSparseArray.KeyAt(System.Int32)" /></c> would return the
+ specified key, or a negative number if the specified
+ key is not mapped.</summary>
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Returns the index for which <c><see cref="M:Android.Support.V4.Util.LongSparseArray.KeyAt(System.Int32)" /></c> would return the
+ specified key, or a negative number if the specified
+ key is not mapped.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#indexOfKey(long)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.IndexOfValue(Java.Lang.Object)">
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <returns>To be added.</returns>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.KeyAt(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>Given an index in the range <c>0...size()-1</c>, returns
+ the key from the <c>index</c>th key-value mapping that this
+ LongSparseArray stores.</summary>
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Given an index in the range <c>0...size()-1</c>, returns
+ the key from the <c>index</c>th key-value mapping that this
+ LongSparseArray stores.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#keyAt(int)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.Put(System.Int64,Java.Lang.Object)">
+            <param name="key">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.Remove(System.Int64)">
+            <param name="key">To be added.</param>
+            <summary>Alias for <c><see cref="M:Android.Support.V4.Util.LongSparseArray.Delete(System.Int64)" /></c>.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Alias for <c><see cref="M:Android.Support.V4.Util.LongSparseArray.Delete(System.Int64)" /></c>.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#remove(long)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.RemoveAt(System.Int32)">
+            <param name="index">To be added.</param>
+            <summary>Removes the mapping at the specified index.</summary>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Removes the mapping at the specified index.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#removeAt(int)" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.SetValueAt(System.Int32,Java.Lang.Object)">
+            <param name="index">To be added.</param>
+            <param name="value">To be added.</param>
+            <summary>To be added.</summary>
+            <remarks>To be added.</remarks>
+        </member>
+        <member name="M:Android.Support.V4.Util.LongSparseArray.Size">
+            <summary>Returns the number of key-value mappings that this LongSparseArray
+ currently stores.</summary>
+            <returns>To be added.</returns>
+            <remarks>
+                <para tool="javadoc-to-mdoc">Returns the number of key-value mappings that this LongSparseArray
+ currently stores.
+</para>
+                <para tool="javadoc-to-mdoc">
+                    <format type="text/html">
+                        <a href="http://developer.android.com/reference/android/support/v4/util/LongSparseArray.html#size()" target="_blank">[Android Documentation]</a>
+                    </format>
+                </para>
+            </remarks>
+            <since version="" />
+        </member>
+        <member name="P:Android.Support.V4.Util.LongSparseArray.ThresholdClass">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.IntPtr" /> which contains the <c>java.lang.Class</c> JNI value corresponding to this type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control which <c>jclass</c> is provided to methods like <see cref="M:Android.Runtime.JNIEnv.CallNonVirtualVoidMethod" />.</para>
+            </remarks>
+        </member>
+        <member name="P:Android.Support.V4.Util.LongSparseArray.ThresholdType">
+            <summary>This API supports the Mono for Android infrastructure and is not intended to be used directly from your code.</summary>
+            <value>A <see cref="T:System.Type" /> which provides the declaring type.</value>
+            <remarks>
+                <para tool="javadoc-to-mdoc">This property is used to control virtual vs. non virtual method dispatch against the underlying JNI object. When this property is equal to the declaring type, then virtual method invocation against the JNI object is performed; o
